@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/lib/my_clib/my.h
+my_macro.h
+../include/lib/my_clib/my_macro.h
+my_typedef.h
+../include/lib/my_clib/my_typedef.h
+
+../include/lib/my_clib/my_macro.h
+
+../include/lib/my_clib/my_typedef.h
+
+../include/tetris.h
+stdbool.h
+-
+stdlib.h
+-
+../include/lib/my_clib/my.h
+../include/lib/my_clib/my.h
+tetris_macros.h
+../include/tetris_macros.h
+tetris_typedef.h
+../include/tetris_typedef.h
+tetris_functions.h
+../include/tetris_functions.h
+
+../include/tetris_functions.h
+
+../include/tetris_macros.h
+
+../include/tetris_typedef.h
+
+/home/Documents/Epitech/tek1/tetris/src/game_manager/parsing/args/flag_parsing.c
+tetris.h
+/home/Documents/Epitech/tek1/tetris/src/game_manager/parsing/args/tetris.h
+
+/home/Documents/Epitech/tek1/tetris/src/game_manager/parsing/customs_starter.c
+tetris.h
+/home/Documents/Epitech/tek1/tetris/src/game_manager/parsing/tetris.h
+

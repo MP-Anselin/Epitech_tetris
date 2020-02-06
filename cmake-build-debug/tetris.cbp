@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tetris"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/Documents/Epitech/tek1/tetris/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek1/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek1/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek1/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek1/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/Documents/Epitech/tek1/tetris/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek1/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek1/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek1/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek1/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_tetris">
+				<Option output="/home/Documents/Epitech/tek1/tetris/cmake-build-debug/my_tetris" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/Documents/Epitech/tek1/tetris/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/Documents/Epitech/tek1/tetris/include"/>
+					<Add directory="/home/Documents/Epitech/tek1/tetris/include/lib"/>
+					<Add directory="/home/Documents/Epitech/tek1/tetris/include/lib/my_clib"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek1/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 my_tetris"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek1/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek1/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek1/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_tetris/fast">
+				<Option output="/home/Documents/Epitech/tek1/tetris/cmake-build-debug/my_tetris" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/Documents/Epitech/tek1/tetris/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/Documents/Epitech/tek1/tetris/include"/>
+					<Add directory="/home/Documents/Epitech/tek1/tetris/include/lib"/>
+					<Add directory="/home/Documents/Epitech/tek1/tetris/include/lib/my_clib"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek1/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 my_tetris/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek1/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek1/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek1/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/Documents/Epitech/tek1/tetris/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek1/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek1/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek1/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek1/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/Documents/Epitech/tek1/tetris/include/lib/my_clib/colors.h">
+			<Option target="my_tetris"/>
+		</Unit>
+		<Unit filename="/home/Documents/Epitech/tek1/tetris/include/lib/my_clib/get_next_line.h">
+			<Option target="my_tetris"/>
+		</Unit>
+		<Unit filename="/home/Documents/Epitech/tek1/tetris/include/lib/my_clib/my.h">
+			<Option target="my_tetris"/>
+		</Unit>
+		<Unit filename="/home/Documents/Epitech/tek1/tetris/include/lib/my_clib/my_macro.h">
+			<Option target="my_tetris"/>
+		</Unit>
+		<Unit filename="/home/Documents/Epitech/tek1/tetris/include/lib/my_clib/my_typedef.h">
+			<Option target="my_tetris"/>
+		</Unit>
+		<Unit filename="/home/Documents/Epitech/tek1/tetris/include/lib/my_clib/printf_flags.h">
+			<Option target="my_tetris"/>
+		</Unit>
+		<Unit filename="/home/Documents/Epitech/tek1/tetris/include/lib/my_clib/printf_puts.h">
+			<Option target="my_tetris"/>
+		</Unit>
+		<Unit filename="/home/Documents/Epitech/tek1/tetris/include/tetris.h">
+			<Option target="my_tetris"/>
+		</Unit>
+		<Unit filename="/home/Documents/Epitech/tek1/tetris/include/tetris_functions.h">
+			<Option target="my_tetris"/>
+		</Unit>
+		<Unit filename="/home/Documents/Epitech/tek1/tetris/include/tetris_macros.h">
+			<Option target="my_tetris"/>
+		</Unit>
+		<Unit filename="/home/Documents/Epitech/tek1/tetris/include/tetris_typedef.h">
+			<Option target="my_tetris"/>
+		</Unit>
+		<Unit filename="/home/Documents/Epitech/tek1/tetris/src/game_manager/game_analyzer.c">
+			<Option target="my_tetris"/>
+		</Unit>
+		<Unit filename="/home/Documents/Epitech/tek1/tetris/src/game_manager/parsing/args/flag_parsing.c">
+			<Option target="my_tetris"/>
+		</Unit>
+		<Unit filename="/home/Documents/Epitech/tek1/tetris/src/game_manager/parsing/customs_starter.c">
+			<Option target="my_tetris"/>
+		</Unit>
+		<Unit filename="/home/Documents/Epitech/tek1/tetris/src/game_manager/parsing/tetris_help.c">
+			<Option target="my_tetris"/>
+		</Unit>
+		<Unit filename="/home/Documents/Epitech/tek1/tetris/src/game_manager/set_up/setup_options.c">
+			<Option target="my_tetris"/>
+		</Unit>
+		<Unit filename="/home/Documents/Epitech/tek1/tetris/src/main.c">
+			<Option target="my_tetris"/>
+		</Unit>
+		<Unit filename="/home/Documents/Epitech/tek1/tetris/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

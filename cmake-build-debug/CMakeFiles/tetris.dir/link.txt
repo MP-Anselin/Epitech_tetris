@@ -1,0 +1,1 @@
+/usr/lib64/ccache/cc -g   CMakeFiles/tetris.dir/src/game_manager/game_analyzer.c.o CMakeFiles/tetris.dir/src/game_manager/parsing/flag_parsing.c.o CMakeFiles/tetris.dir/src/game_manager/parsing/tetris_help.c.o CMakeFiles/tetris.dir/src/main.c.o  -o tetris 
